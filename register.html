@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <header style="text-align: center">
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="gallery.html">Gallery</a>
-          <a href="media.html">Media</a>
-          <a href="contact.html">Contact</a>
-          <a href="login.html">Login </a>
-          <a href="register.html">Register</a>
-        </nav>
-      </header>
-      <Main> 
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login </a>
+        <a href="register.html">Register</a>
+      </nav>
+    </header>
+    <main>
+      <hr />
+      <h1 style="text-align: center">This is Register Page</h1>
+      <hr />
+      <h2 style="text-align: center">Please Register</h2>
 
-      </Main>
-      
-    
-</body>
+      <hr />
+      <fieldset style="width: 400px; margin: 0 auto">
+        <legend style="text-align: center">Register</legend>
+        <label for="">Full Name</label>
+        <input type="full name" placeholder="Full Name" name="full name" />
+        <br />
+        <br />
+        <label for="">Email</label>
+        <input
+          type="email"
+          placeholder="enter your Email"
+          name="email"/><br /><br />
+        <label for="">Password</label>
+        <input
+          type="password"
+          placeholder="enter your Password"
+          name="Password" /><br /><br />
+          <p style="margin: 0%;">Gender:</p>
+          <label for="gender-male">Male </label>
+          <input type="radio" name="gender" value="male" id="gender-male"><br>
+
+          <label for="gender-female">Female </label>
+          <input type="radio" name="gender" value="female" id="gender-female"><br>
+
+          
+          <label for="gender-other">Other</label>
+          <input type="radio" name="gender" value="other" id="gender-other"><br>
+          
+      </fieldset>
+    </main>
+
+    <footer style="text-align: center">
+      <p>&copy;2024 All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
